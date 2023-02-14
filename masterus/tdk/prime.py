@@ -16,17 +16,17 @@ def ping():
         {
             "api": "http://10.110.195.2:7227",
             "title": "Кластеризатор",
-            "description": "May the odds be ever in your favor",
+            "description": ["May the odds be ever in your favor"],
         },
         {
             "api": "http://10.110.195.2:7227",
             "title": "Кластеризатор",
-            "description": "May the odds be ever in your favor",
+            "description": ["May the odds be ever in your favor"],
         },
         {
             "api": "http://10.110.195.2:7227",
             "title": "Кластеризатор",
-            "description": "May the odds be ever in your favor",
+            "description": ["May the odds be ever in your favor"],
         },
     ]
     return jsonify(response)
